@@ -1,0 +1,12 @@
+.partners__logo {
+  padding: 0;
+  display: flex;
+}
+
+.partners__logo:hover {
+  opacity: 0.3;
+}
+
+.partners__logo:nth-child(5n+1) {
+  margin-top: auto;
+}

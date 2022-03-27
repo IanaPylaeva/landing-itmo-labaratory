@@ -1,0 +1,10 @@
+.partners__text-container {
+  color: white;
+  margin-top: 385px;
+  width: 920px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

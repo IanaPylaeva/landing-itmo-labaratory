@@ -1,0 +1,11 @@
+.feedback__button-submit {
+  margin: 37px auto 0;
+  width: 350px;
+  height: 60px;
+  background-color: #009FAC;
+  color: #FFFFFF;  
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  text-transform: uppercase;
+}

@@ -1,0 +1,10 @@
+.partners__logo-zone {
+  width: 1000px;
+  min-height: 146px;
+  margin: 100px auto 80px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}

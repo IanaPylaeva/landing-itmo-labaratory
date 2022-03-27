@@ -1,0 +1,6 @@
+.feedback__form {
+  margin: 0 auto 35px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,8 @@
+.partners__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+  margin: 0;
+  padding: 0;
+}

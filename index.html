@@ -13,7 +13,51 @@
 <body class="page">
   <header class="header"></header>
 
-  <main class=""></main>
+  <main class="content">
+
+  <section class="partners">
+    <article class="partners__text-container">
+      <h2 class="partners__title">с кем мы работаем</h2>
+      <div class="partners__text">
+      <p class="partners__paragraph">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению необходимых изменений.
+      </p>
+      <p class="partners__paragraph">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности. Надеемся на дальнейшее и плодотворное сотрудничество.
+      </p>
+      </div>
+    </article>
+    <ul class="partners__logo-zone">
+      <li><a href="https://www.gazprom-neft.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/gazprom_logo.svg" alt="Газпром-нефть логотип"></a></li>
+      <li><a href="https://www.sberbank.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/sberbank_logo.svg" alt="Сбербанк логотип"></a></li>
+      <li><a href="https://corp.mail.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/mailru_logo.svg" alt="Mail.ru Group логотип"></a></li>
+      <li><a href="https://www.siemens.com" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/siemens_logo.svg" alt="Siemens логотип"></a></li>
+      <li><a href="https://consumer.huawei.com" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/huawei_logo.svg" alt="Huawei логотип"></a></li>
+      <li><a href="https://www.sberbank.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/sberbank_logo.svg" alt="Сбербанк логотип"></a></li>
+      <li><a href="https://www.rosneft.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/rosneft_logo.svg" alt="Роснефть логотип"></a></li>
+      <li><a href="https://www.gazprom-neft.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/gazprom_logo.svg" alt="Газпром-нефть логотип"></a></li>
+      <li><a href="https://consumer.huawei.com" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/huawei_logo.svg" alt="Huawei логотип"></a></li>
+      <li><a href="https://corp.mail.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/mailru_logo.svg" alt="Mail.ru Group логотип"></a></li>
+    </ul>
+  </section>
+  <section class="feedback">
+    <article class="feedback__text-container">
+      <h2 class="feedback__title">всегда на связи</h2>
+      <p class="feedback__paragraph">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или оставить свое сообщение через форму обратной связи.
+      </p>
+    </article>
+    <form class="feedback__form">
+      <div class="feedback__inputs-list">
+        <input id="username-input" type="text" class="feedback__input feedback__input_type_name" name="username" value="Имя" required minlength="2" maxlength="40">
+        <input id="usersurname-input" type="text" class="feedback__input feedback__input_type_surname" name="usersurname" value="Фамилия" required minlength="2" maxlength="40">
+        <input id="phone-input" type="text" class="feedback__input feedback__input_type_phone" name="userphone" value="Телефон" required minlength="2" maxlength="40">
+        <input id="email-input" type="email" class="feedback__input feedback__input_type_email" name="useremail" value="E-mail" required minlength="2" maxlength="40">
+        <textarea id="message-input" type="text" class="feedback__input feedback__input_type_message" name="usermessage" required>
+        Сообщение</textarea>
+      </div>
+      <button type="submit" class="feedback__button-submit">Отправить</button>
+    </form>
+  </section>
+
+  </main>
 
   <footer class="footer"></footer>
 

@@ -1,0 +1,8 @@
+.feedback {
+  background-color: #009FAC;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+}

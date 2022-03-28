@@ -1,0 +1,27 @@
+.partners__logo-zone-bottom {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  column-gap: 73px;
+  list-style: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .partners__logo-zone-bottom {
+    grid-template-columns: repeat(5, 1fr); /*минус пару колонок*/
+    column-gap: 78px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .partners__logo-zone-bottom {
+    grid-column: 1/2;
+    grid-template-columns: repeat(3, 3fr); /*наложение*/
+    column-gap: 45px;
+    row-gap: 20px;
+  }
+}

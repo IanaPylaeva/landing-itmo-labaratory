@@ -6,3 +6,16 @@
   margin: 0;
   padding: 0;
 }
+
+
+@media screen and (max-width: 768px) {
+  .partners__text {
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .partners__text {
+    height: 192px;
+  }
+}

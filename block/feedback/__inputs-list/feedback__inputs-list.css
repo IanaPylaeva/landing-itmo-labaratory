@@ -1,4 +1,5 @@
 .feedback__inputs-list {
+  width: 100%;
   margin: 0;
   padding: 0;
   display: grid;
@@ -6,4 +7,20 @@
   grid-template-rows: repeat(2, 60px);
   column-gap: 29px;
   row-gap: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .feedback__inputs-list {
+    grid-template-columns: repeat(3, 210px);
+    grid-template-rows: repeat(2, 44px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feedback__inputs-list {
+    grid-template-columns: 288px;
+    grid-template-rows: repeat(4, 44px) 140px;
+    row-gap: 12px;    
+  }
 }

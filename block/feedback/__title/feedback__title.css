@@ -1,6 +1,27 @@
 .feedback__title {
   margin: 0 auto 37px;
-  width: 328px;
+  max-width: 328px;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.89;
+  letter-spacing: 0.1px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .feedback__title {
+    max-width: 219px;
+    font-size: 24px;
+    line-height: 1.375;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feedback__title {
+    width: 100%;
+    margin: 0 auto 23px;
+    font-size: 16px;
+  }
 }

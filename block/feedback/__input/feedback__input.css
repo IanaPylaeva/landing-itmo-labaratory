@@ -2,6 +2,10 @@
   border-radius: 10px;
   color: #009FAC;
   padding-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: 0.1px;
 }
 
 .feedback__input:last-child {
@@ -10,3 +14,32 @@
   grid-row-start: 1;
   grid-row-end: 3;
 }
+
+
+@media screen and (max-width: 768px) {
+  .feedback__input {
+    font-size: 14px;
+    line-height: 1.43;
+    padding-left: 12px;
+  }
+  .feedback__input:last-child {
+    height: 108px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feedback__input {
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1.33;
+    padding-left: 10px;
+  }
+  .feedback__input:last-child {
+    height: 140px;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+}
+
+

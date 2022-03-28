@@ -25,18 +25,22 @@
       </p>
       </div>
     </article>
-    <ul class="partners__logo-zone">
-      <li><a href="https://www.gazprom-neft.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/gazprom_logo.svg" alt="Газпром-нефть логотип"></a></li>
-      <li><a href="https://www.sberbank.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/sberbank_logo.svg" alt="Сбербанк логотип"></a></li>
-      <li><a href="https://corp.mail.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/mailru_logo.svg" alt="Mail.ru Group логотип"></a></li>
-      <li><a href="https://www.siemens.com" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/siemens_logo.svg" alt="Siemens логотип"></a></li>
-      <li><a href="https://consumer.huawei.com" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/huawei_logo.svg" alt="Huawei логотип"></a></li>
-      <li><a href="https://www.sberbank.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/sberbank_logo.svg" alt="Сбербанк логотип"></a></li>
-      <li><a href="https://www.rosneft.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/rosneft_logo.svg" alt="Роснефть логотип"></a></li>
-      <li><a href="https://www.gazprom-neft.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/gazprom_logo.svg" alt="Газпром-нефть логотип"></a></li>
-      <li><a href="https://consumer.huawei.com" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/huawei_logo.svg" alt="Huawei логотип"></a></li>
-      <li><a href="https://corp.mail.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/mailru_logo.svg" alt="Mail.ru Group логотип"></a></li>
-    </ul>
+    <div class="partners__grid-container">
+      <ul class="partners__logo-zone-under">
+        <li><a href="https://www.gazprom-neft.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/gazprom_logo.svg" alt="Газпром-нефть логотип"></a></li>
+        <li><a href="https://www.sberbank.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/sberbank_logo.svg" alt="Сбербанк логотип"></a></li>
+        <li><a href="https://corp.mail.ru" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/mailru_logo.svg" alt="Mail.ru Group логотип"></a></li>
+        <li><a href="https://www.siemens.com" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/siemens_logo.svg" alt="Siemens логотип"></a></li>
+        <li><a href="https://consumer.huawei.com" target="_blank" rel="noopener" class="partners__logo"><img src="./img/partners-logo/huawei_logo.svg" alt="Huawei логотип"></a></li>
+      </ul>
+      <ul class="partners__logo-zone-bottom">
+        <li><a href="https://www.sberbank.ru" target="_blank" rel="noopener" class="partners__logos"><img src="./img/partners-logo/sberbank_logo.svg" alt="Сбербанк логотип"></a></li>
+        <li><a href="https://www.rosneft.ru" target="_blank" rel="noopener" class="partners__logos"><img src="./img/partners-logo/rosneft_logo.svg" alt="Роснефть логотип"></a></li>
+        <li><a href="https://www.gazprom-neft.ru" target="_blank" rel="noopener" class="partners__logos"><img src="./img/partners-logo/gazprom_logo.svg" alt="Газпром-нефть логотип"></a></li>
+        <li><a href="https://consumer.huawei.com" target="_blank" rel="noopener" class="partners__logos"><img src="./img/partners-logo/huawei_logo.svg" alt="Huawei логотип"></a></li>
+        <li><a href="https://corp.mail.ru" target="_blank" rel="noopener" class="partners__logos"><img src="./img/partners-logo/mailru_logo.svg" alt="Mail.ru Group логотип"></a></li>
+      </ul>
+    </div>
   </section>
   <section class="feedback">
     <article class="feedback__text-container">
@@ -50,8 +54,7 @@
         <input id="usersurname-input" type="text" class="feedback__input feedback__input_type_surname" name="usersurname" value="Фамилия" required minlength="2" maxlength="40">
         <input id="phone-input" type="text" class="feedback__input feedback__input_type_phone" name="userphone" value="Телефон" required minlength="2" maxlength="40">
         <input id="email-input" type="email" class="feedback__input feedback__input_type_email" name="useremail" value="E-mail" required minlength="2" maxlength="40">
-        <textarea id="message-input" type="text" class="feedback__input feedback__input_type_message" name="usermessage" required>
-        Сообщение</textarea>
+        <input id="message-input" type="text" class="feedback__input feedback__input_type_message" name="usermessage" value="Сообщение" required minlength="2" maxlength="240">
       </div>
       <button type="submit" class="feedback__button-submit">Отправить</button>
     </form>

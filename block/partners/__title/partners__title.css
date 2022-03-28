@@ -1,6 +1,26 @@
 .partners__title {
   margin: 0 auto 30px;
-  width: 472px;
+  max-width: 472px;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.89;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 768px) {
+  .partners__title {
+    max-width: 260px;
+    font-size: 24px;
+    line-height: 1.375;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .partners__title {
+    margin: 0 auto 20px;
+    max-width: 100%;
+    font-size: 16px;
+  }
 }

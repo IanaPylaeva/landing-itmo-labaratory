@@ -1,3 +1,22 @@
 .partners__paragraph {
   margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.1px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .partners__paragraph {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .partners__paragraph {
+    font-size: 12px;
+    line-height: 1.33;
+  }
 }

@@ -12,16 +12,17 @@
 
 @media screen and (max-width: 768px) {
   .partners__logo-zone-bottom {
-    grid-template-columns: repeat(5, 1fr); /*минус пару колонок*/
-    column-gap: 78px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 7px;
   }
 }
-
+/*
 @media screen and (max-width: 320px) {
   .partners__logo-zone-bottom {
     grid-column: 1/2;
-    grid-template-columns: repeat(3, 3fr); /*наложение*/
+    grid-template-columns: repeat(3, 3fr); /*наложение
     column-gap: 45px;
     row-gap: 20px;
   }
 }
+*/

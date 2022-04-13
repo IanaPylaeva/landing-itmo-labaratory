@@ -12,12 +12,12 @@
 
 @media screen and (max-width: 768px) {
   .partners__logo-zone-under {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 7px;
     max-width: 690px;
   }
 }
-
+/*
 @media screen and (max-width: 320px) {
   .partners__logo-zone-under {
     grid-column: 1/2;
@@ -26,3 +26,4 @@
     row-gap: 20px;
   }
 }
+*/

@@ -9,14 +9,32 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .feedback__text-container {
-    max-width: 690px;
+    max-width: 720px;
     margin: 60px auto 37px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 830px) {
+  .feedback__text-container {
+    max-width: 705px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feedback__text-container {
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .feedback__text-container {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 440px) {
   .feedback__text-container {
     max-width: 288px;
     margin: 40px auto 23px;

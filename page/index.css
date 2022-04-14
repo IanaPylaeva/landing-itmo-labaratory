@@ -2,9 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 
 /* Блок partners */
-@import url(../block/partners/__grid-container/partners__grid-container.css);
-@import url(../block/partners/__logo-zone-bottom/partners__logo-zone-bottom.css);
-@import url(../block/partners/__logo-zone-under/partners__logo-zone-under.css);
+@import url(../block/partners/__logo-container/partners__logo-container.css);
 @import url(../block/partners/__logo/partners__logo.css);
 @import url(../block/partners/__paragraph/partners__paragraph.css);
 @import url(../block/partners/__text/partners__text.css);

@@ -14,14 +14,14 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .feedback__button-submit {
     width: 210px;
     height: 44px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
   .feedback__button-submit {    
     border-radius: 5px;
     margin: 23px auto 0;

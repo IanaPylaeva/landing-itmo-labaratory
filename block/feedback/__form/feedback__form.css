@@ -7,14 +7,26 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
+  .feedback__form {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 850px) {
   .feedback__form {
     max-width: 688px;
     margin: 0 auto 60px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
+  .feedback__form {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 440px) {
   .feedback__form {
     max-width: 288px;
     margin: 0 auto 40px;

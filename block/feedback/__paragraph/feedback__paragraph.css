@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
   .feedback__paragraph {
     font-size: 12px;
     line-height: 1.33;

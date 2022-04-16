@@ -11,6 +11,7 @@
 @import url(../block/ourteam/__name/ourteam__name.css);
 @import url(../block/ourteam/__photo/ourteam__photo.css);
 @import url(../block/ourteam/__point/ourteam__point.css);
+@import url(../block/ourteam/__point/_selected/ourteam__point_active.css);
 @import url(../block/ourteam/__points-container/ourteam__points-container.css);
 @import url(../block/ourteam/__title/ourteam__title.css);
 @import url(../block/ourteam/ourteam.css);

@@ -1,3 +1,4 @@
+/* Section partners. Логотипы - при уменьшении окна от 850 - исчезают два логотипа*/
 const underSberLogo = document.getElementById('undersberlogo');
 const bottomHuaweiLogo = document.getElementById('bottomhuaweilogo');
 
@@ -12,3 +13,6 @@ function one(){
 };
 
 window.addEventListener('resize', one);
+
+/* Section OurTeam. При нажатии на стрелку - карусель карточек команды движется*/
+

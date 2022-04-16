@@ -1,7 +1,9 @@
+/* * {outline: 1px solid green}; */
+
 .page {
-    background-color: #fff;
-    width: 100%;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-  }
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}

@@ -1,0 +1,17 @@
+.ourteam__name-container {
+  width: 100%;
+  margin: 20px 0 4px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .ourteam__name-container {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .ourteam__name-container {
+    margin-top: 10px;    
+  }
+}

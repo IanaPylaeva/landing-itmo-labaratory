@@ -1,0 +1,39 @@
+.ourteam__point {
+  width: 8px;
+  height: 8px;
+  background-color: #FFFFFF;
+  opacity: 0.5;
+  box-sizing: border-box;
+  background-image: url(../../../img/Team/point-unselected.svg);
+  background-size: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 12px 0 0;
+  padding: 0;
+  display: flex;
+}
+.ourteam__point:last-child {
+  margin: 0;
+}
+.ourteam__point:first-child {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .ourteam__point:first-child {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .ourteam__point {   
+    width: 4px;
+    height: 4px;
+    margin: 0 8px 0 0;
+  }
+  .ourteam__point:first-child {
+    display: none;
+  }
+}

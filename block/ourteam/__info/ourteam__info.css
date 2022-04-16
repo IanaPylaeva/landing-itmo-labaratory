@@ -1,0 +1,28 @@
+.ourteam__info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #009FAC;
+  margin: 4px auto 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .ourteam__info {
+    font-size: 12px;
+    line-height: 1.45;
+    margin: 4px 0 20px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .ourteam__info {
+    font-size: 10px;
+    line-height: 1.4;
+    margin: 4px auto 10px;
+    max-width: 71px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+  }
+}

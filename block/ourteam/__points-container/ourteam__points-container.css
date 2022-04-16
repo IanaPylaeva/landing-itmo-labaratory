@@ -1,0 +1,27 @@
+.ourteam__points-container {
+  margin: 31px auto 21px;
+  padding: 0;
+  max-width: 68px;
+  display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+  .ourteam__points-container {
+    margin-top: 24px;
+    max-width: 88px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .ourteam__points-container {
+    margin: 16px auto;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .ourteam__points-container{
+    margin: 14px auto;
+    max-width: 40px;
+  }
+}

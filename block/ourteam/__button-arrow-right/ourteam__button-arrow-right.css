@@ -1,0 +1,32 @@
+.ourteam__button-arrow-right {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  background-color: #001337;
+  /*border: 1px solid #FFFFFF;*/
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: opacity .3s ease;
+  background-image: url(../../../img/Team/button-arrow-right.svg);
+  /*background-size: 60px;*/
+  background-repeat: no-repeat;
+  background-position: center;
+
+  box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+  border-radius: 36px;
+
+  margin: 217.5px 0 auto 16px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .ourteam__button-arrow-right {
+    margin: 160px auto auto 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ourteam__button-arrow-right {
+    display: none;
+  }
+}

@@ -1,6 +1,22 @@
 @import url(../block/page/page.css);
 @import url(../vendor/fonts/fonts.css);
 
+/* Блок ourteam */
+@import url(../block/ourteam/__button-arrow-left/ourteam__button-arrow-left.css);
+@import url(../block/ourteam/__button-arrow-right/ourteam__button-arrow-right.css);
+@import url(../block/ourteam/__card/ourteam__card.css);
+@import url(../block/ourteam/__cards-container/ourteam__cards-container.css);
+@import url(../block/ourteam/__container/ourteam__container.css);
+@import url(../block/ourteam/__info/ourteam__info.css);
+@import url(../block/ourteam/__name/ourteam__name.css);
+@import url(../block/ourteam/__photo/ourteam__photo.css);
+@import url(../block/ourteam/__point/ourteam__point.css);
+@import url(../block/ourteam/__points-container/ourteam__points-container.css);
+@import url(../block/ourteam/__title/ourteam__title.css);
+@import url(../block/ourteam/ourteam.css);
+@import url(../block/ourteam/__name-container/ourteam__name-container.css);
+
+
 /* Блок partners */
 @import url(../block/partners/__logo-container/partners__logo-container.css);
 @import url(../block/partners/__logo/partners__logo.css);
